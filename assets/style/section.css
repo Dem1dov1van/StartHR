@@ -1,0 +1,218 @@
+.section-default {
+    padding-top: 80px;
+    padding-bottom: 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-default:after {
+    content: url("../../assets/img/background-cloud.png");
+    display: block;
+    position: absolute;
+    left: 67%;
+    top: 20%;
+    bottom: 12.9%;
+    transform: rotate(15deg);
+    z-index: -1;
+}
+
+.section-default--inverse .section-default__wrapper {
+    flex-direction: row-reverse;
+}
+
+.section-default--inverse.section-default:after{
+    content: url("../../assets/img/background-cloud1.png");
+    left: -8%;
+    top: -3.49%;
+}
+
+.section-default__wrapper {
+    display: flex;
+}
+
+.section-default__content {
+    flex: 1.1;
+}
+
+.section-default__img-wrap {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-default__img-wrap {
+    transform: translate(-40px, 0);
+}
+
+.section-default__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: var(--text-color);
+    margin-bottom: 48px;
+}
+
+.section-default__paragraph {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--text-color);
+    margin-bottom: 48px;
+}
+
+.section-default__list {
+    list-style: none;
+}
+
+.section-default__list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.section-default__list li:last-child {
+    margin-bottom: 0;
+}
+
+.section-default__list li:before {
+    content: url("../../assets/img/puzzle.svg");
+    display: block;
+    margin-right: 16px;
+}
+
+@media (max-width: 991.98px) {
+    .section-default {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .section-default__content {
+        flex: 1.5;
+    }
+
+    .section-default:after {
+        content: url("../../assets/img/background-cloud-sm.png");
+        left: 77%;
+        top: 28%;
+        /*bottom: 12.9%;*/
+    }
+
+    .section-default--inverse.section-default:after{
+        content: url("../../assets/img/background-cloud1-sm.png");
+        left: -7%;
+        top: 27%;
+    }
+
+    .section-default__img-wrap {
+        justify-content: flex-end;
+    }
+
+    .section-default__img-wrap img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-default__title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    .section-default__paragraph {
+        margin-bottom: 24px;
+    }
+
+    .section-form__description {
+        margin-bottom: 32px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section-default {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .section-default:after {
+        display: none;
+    }
+
+    .section-default--inverse.section-default:after{
+        display: none;
+    }
+
+    .section-default--inverse .section-default__wrapper,
+    .section-default__wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .section-default__img-wrap {
+        transform: none;
+        margin-bottom: 24px;
+    }
+
+    .section-default__img-wrap img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .section-default__title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .section-default__paragraph {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+    }
+
+    .section-default__list li {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .section-adaptation {
+        margin-top: -64px;
+    }
+}
+
+.section-adaptation {
+    padding-top: 160px;
+}
+
+
+.section-form {
+    transform: translate(0, 70px);
+    padding-bottom: 0;
+}
+
+.section-form:after,
+.section-form:before {
+    content: none;
+}
+
+.section-form__wrapper {
+    text-align: center;
+}
+
+.section-form__title {
+    margin-bottom: 20px;
+}
+
+.section-default__description {
+    margin-bottom: 64px;
+}
