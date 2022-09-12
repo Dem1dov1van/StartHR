@@ -229,7 +229,7 @@ body {
 .menu-list__item--dropdown.open .sublist{
     pointer-events: initial;
     opacity: 1;
-    top: 105%;
+    top: 180%;
 }
 
 .menu-list__item--dropdown a {
@@ -259,8 +259,10 @@ body {
     margin-bottom: 0;
 }
 
-.sublist__item:hover {
-
+.sublist__item a{
+    font-weight: 300;
+    line-height: 16px;
+    font-size: 16px;
 }
 
 .menu-list__item:not(:last-child) {
@@ -632,6 +634,12 @@ body {
 /* header */
 
 @media (max-width: 767.98px){
+    .header__background {
+        opacity: 0.15;
+        right: 0;
+        top: -400px;
+    }
+
     .offer__chat-lg-img {
         left: 30px;
     }
@@ -684,6 +692,11 @@ body {
 }
 
 @media (max-width: 575.98px){
+    .header__background {
+        right: 0;
+        top: -670px;
+    }
+
     div.offer__image-wrap {
         display: none;
     }
