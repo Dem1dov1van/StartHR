@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+.nobr {
+    white-space: nowrap;
+}
+
 :root {
     --primary-color: lime;
     --project-pink: #987CF7;
@@ -653,7 +657,7 @@ body {
         line-height: 32px;
     }
     .header__list-wrapper {
-        max-height: calc(100% - 80px);
+        max-height: calc(100% - 70px);
     }
     .header {
         padding: 18px 0;
@@ -679,7 +683,7 @@ body {
     }
 
     .header__list-wrapper.open {
-        top: 80px;
+        top: 70px;
     }
 
     .header__phone-link-wrapper a {
@@ -771,6 +775,10 @@ body {
 @media (max-width: 991.98px){
     .swiper-slide__wrap {
         transform: translate(40%, 0px);
+    }
+
+    .no-scroll-md {
+        overflow: hidden;
     }
 }
 
