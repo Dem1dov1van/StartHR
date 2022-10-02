@@ -6,6 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>StartHR</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.css"
+    />
     <link rel="stylesheet" href="./assets/fonts/FuturaPT/stylesheet.css">
     <link rel="stylesheet" href="./assets/style/features.css">
     <link rel="stylesheet" href="./assets/style/section.css">
@@ -106,8 +110,28 @@
                     </button>
                 </div>
                 <div class="offer__image-wrap">
-                    <img class="offer__features-img" src="./assets/img/items.png" alt="features">
-                    <img class="offer__features-img--md" src="./assets/img/features-md.svg" alt="features">
+                    <div class="offer__tags">
+                        <span class="tag">
+                            План адаптации
+                        </span>
+                        <span class="tag">
+                            FAQ
+                        </span>
+                        <span class="tag">
+                            Аналитика по адаптиции
+                        </span>
+                        <span class="tag">
+                            Обратная связь
+                        </span>
+                        <span class="tag">
+                            Чат-бот Telegram
+                        </span>
+                        <span class="tag">
+                            Личный кабинет HR
+                        </span>
+                    </div>
+<!--                    <img class="offer__features-img" src="./assets/img/items.png" alt="features">-->
+<!--                    <img class="offer__features-img&#45;&#45;md" src="./assets/img/features-md.svg" alt="features">-->
                 </div>
             </div>
         </div>
@@ -341,35 +365,156 @@
         </div>
     </section>
     <section class="section-cases">
-        <div class="container">
-            <h2>Реализованные кейсы</h2>
-            <div class="swiper">
+        <div class="container1">
+            <h2 class="section-cases__title section-default__title">Реализованные кейсы</h2>
+            <div class="swiper-cases">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="swiper-slide__aside">
-                            <img src="./assets/img/mts-logo.svg" alt="mts-logo">
-                            <ul class="swiper-slide__features-list">
-                                <li>
-                                    <p>3 000</p>
-                                    <span>сотурдников на адаптации</span>
-                                </li>
-                                <li>
-                                    <p>300</p>
-                                    <span>офисов по россии</span>
-                                </li>
-                                <li>
-                                    <p>3</p>
-                                    <span>месяца срок запуска</span>
-                                </li>
-                            </ul>
+                    <div class="swiper-slide cases-slide">
+                        <div class="cases-slide_wrapper">
+                            <div class="cases-slide__aside">
+                                <img src="./assets/img/mts-logo.svg" alt="mts-logo">
+                                <ul class="swiper-slide__features-list">
+                                    <li>
+                                        <p>3 000</p>
+                                        <span>сотурдников на адаптации</span>
+                                    </li>
+                                    <li>
+                                        <p>300</p>
+                                        <span>офисов по россии</span>
+                                    </li>
+                                    <li>
+                                        <p>3</p>
+                                        <span>месяца срок запуска</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cases-slide__main">
+                                <h5>Запуска Start HR&nbsp;для сотрудников в&nbsp;офисах продаж&nbsp;МТС</h5>
+                                <p>Идейные соображения высшего порядка, а&nbsp;также дальнейшее развитие различных форм деятельности в&nbsp;значительной степени обуславливает создание систем массового участия. Значимость этих проблем настолько очевидна, что постоянный количественный рост и&nbsp;сфера нашей активности способствует подготовки и&nbsp;реализации направлений прогрессивного развития.</p>
+                            </div>
                         </div>
-                        <div class="swiper-slide__main">
-                            <h5>Запуска Start HR&nbsp;для сотрудников в&nbsp;офисах продаж МТС</h5>
-                            <p>Идейные соображения высшего порядка, а&nbsp;также дальнейшее развитие различных форм деятельности в&nbsp;значительной степени обуславливает создание систем массового участия. Значимость этих проблем настолько очевидна, что постоянный количественный рост и&nbsp;сфера нашей активности способствует подготовки и&nbsp;реализации направлений прогрессивного развития.</p>
+                    </div>
+                    <div class="swiper-slide cases-slide">
+                        <div class="cases-slide_wrapper">
+                            <div class="cases-slide__aside">
+                                <img src="./assets/img/mts-logo.svg" alt="mts-logo">
+                                <ul class="swiper-slide__features-list">
+                                    <li>
+                                        <p>3 000</p>
+                                        <span>сотурдников на адаптации</span>
+                                    </li>
+                                    <li>
+                                        <p>300</p>
+                                        <span>офисов по россии</span>
+                                    </li>
+                                    <li>
+                                        <p>3</p>
+                                        <span>месяца срок запуска</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="cases-slide__main">
+                                <h5>Запуска Start HR&nbsp;для сотрудников в&nbsp;офисах продаж&nbsp;МТС</h5>
+                                <p>Идейные соображения высшего порядка, а&nbsp;также дальнейшее развитие различных форм деятельности в&nbsp;значительной степени обуславливает создание систем массового участия. Значимость этих проблем настолько очевидна, что постоянный количественный рост и&nbsp;сфера нашей активности способствует подготовки и&nbsp;реализации направлений прогрессивного развития.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <h4 class="section-default__title">Другие решения</h4>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-slide__wrap">
+                        <img src="./assets/img/quiz.svg" alt="carousel-img">
+                        <div class="swiper-slide__text__wrap">
+                            <h4>
+                                Опросы<br> и тесирование
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__wrap">
+                        <img src="./assets/img/interview.svg" alt="carousel-img">
+                        <div class="swiper-slide__text__wrap">
+                            <h4>
+                                Интервью
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__wrap">
+                        <img src="./assets/img/adaptation.svg" alt="carousel-img">
+                        <div class="swiper-slide__text__wrap">
+                            <h4>
+                                Адаптация
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__wrap">
+                        <img src="./assets/img/self-service.svg" alt="carousel-img">
+                        <div class="swiper-slide__text__wrap">
+                            <h4>
+                                Сервисы<br> самообслуживания
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__wrap">
+                        <img src="./assets/img/learn-employee.svg" alt="carousel-img">
+                        <div class="swiper-slide__text__wrap">
+                            <h4>
+                                Обучение<br> сотрудников
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__wrap">
+                        <img src="./assets/img/interview.svg" alt="carousel-img">
+                        <div class="swiper-slide__text__wrap">
+                            <h4>
+                                Интервью
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__wrap">
+                        <img src="./assets/img/interview.svg" alt="carousel-img">
+                        <div class="swiper-slide__text__wrap">
+                            <h4>
+                                Интервью
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide__wrap">
+                        <img src="./assets/img/self-service.svg" alt="carousel-img">
+                        <div class="swiper-slide__text__wrap">
+                            <h4>
+                                Сервисы<br> самообслуживания
+                            </h4>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="swiper-scrollbar"></div>
         </div>
     </section>
     <section id="form" class="section-form section-default">
@@ -461,6 +606,6 @@
     <div class="violet-background"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="./assets/script/script.js"></script>
+    <script src="./assets/script/script1.js"></script>
 </body>
 </html>
