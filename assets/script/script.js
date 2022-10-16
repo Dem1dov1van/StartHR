@@ -46,6 +46,10 @@ document.addEventListener("DOMContentLoaded", () => {
             delay: 5000,
             disableOnInteraction: false
         },
+        keyboard: {
+            enabled: true,
+            onlyInViewport: false,
+        },
         width: 1200,
         slidesPerView: 5,
         scrollbar: {

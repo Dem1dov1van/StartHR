@@ -42,6 +42,13 @@ document.addEventListener("DOMContentLoaded", () => {
     
     const swiper = new Swiper('.swiper', {
         // loop: true,
+        mousewheel: {
+            invert: true,
+        },
+        keyboard: {
+            enabled: true,
+            onlyInViewport: false,
+        },
         autoplay: {
             delay: 5000,
             disableOnInteraction: false
