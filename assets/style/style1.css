@@ -262,8 +262,9 @@
     flex-direction: column;
 }
 
-.section-step--fourth .section-default__img-wrap img {
-    /*transform: translate(-20px, 0);*/
+
+.section-step--fourth .section-default__img-wrap {
+    position: relative;
 }
 
 .section-step--fourth__img--first {
@@ -710,10 +711,6 @@ div.cases-slide__aside img {
     .section-step--fourth .section-default__img-wrap img.section-step--fourth__img--second {
         left: 70px;
         top: 38%;
-    }
-
-    .section-step--fourth .section-default__img-wrap {
-        position: relative;
     }
 }
 
