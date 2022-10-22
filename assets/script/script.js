@@ -40,66 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const headerMenu = document.querySelector('.header__list-wrapper')
 
-    const swiper = new Swiper('.swiper', {
-        loop: true,
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false
-        },
-        keyboard: {
-            enabled: true,
-            onlyInViewport: false,
-        },
-        width: 1200,
-        slidesPerView: 5,
-        scrollbar: {
-            el: ".swiper-scrollbar",
-            // hide: true
-        },
-        breakpoints: {
-            320: {
-                slidesPerView: 1.7,
-                spaceBetween: 16,
-                width: 300,
-            },
-            575.98: {
-                slidesPerView: 1.8,
-                spaceBetween: 16,
-                width: 400,
-            },
-            767.97: {
-                slidesPerView: 2.7,
-                spaceBetween: 20,
-                width: 800,
-            },
-            991.98: {
-                slidesPerView: 4,
-                spaceBetween: 20,
-                width: 1200,
-            },
-            1199.98: {
-                slidesPerView: 5,
-                spaceBetween: 20,
-                width: 1500,
-            }
-        }
-    })
-    
-    const swiper2 = new Swiper('.swiper-cases', {
-        loop: true,
-        slidesPerView: 1,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-            991.98: {
-                // width: 1000,
-                
-            },
-        }
-    })
-
     const formSection = document.querySelector('#form')
 
     const orderBtn = document.querySelector('.order-btn-js')
