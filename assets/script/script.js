@@ -4,10 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
         dropdownMenu.classList.toggle('open')
         if(body.classList.contains('no-scroll')){
             body.classList.remove('no-scroll')
-            body.classList.remove('no-scroll-md')
         } else {
             body.classList.add('no-scroll')
-            body.classList.add('no-scroll-md')
         }
     })
 
@@ -15,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
     dropdownMenuOutside.addEventListener('click', () => {
         dropdownMenu.classList.remove('open')
         body.classList.remove('no-scroll')
-        body.classList.remove('no-scroll-md')
     })
 
     let burger = document.querySelector('.open-menu-js')
@@ -27,11 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
         if(!burger.classList.contains('opened')) {
             burger.classList.add('opened')
             body.classList.add('no-scroll')
-            body.classList.add('no-scroll-md')
         } else {
             burger.classList.remove('opened')
             body.classList.remove('no-scroll')
-            body.classList.remove('no-scroll-md')
         }
         headerMenu.classList.toggle('open')
     }
